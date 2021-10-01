@@ -18,7 +18,7 @@ body {
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background-color: cadetblue;
+  background-color: #f8f8f8;
   &__follow {
     display: flex;
     flex-direction: column;
@@ -28,6 +28,7 @@ body {
       font-size: 14px;
       line-height: 16px;
       color: #67625f;
+      font-weight: lighter;
     }
     &-icons {
       display: flex;
