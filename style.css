@@ -4,6 +4,51 @@
 
 body {
   margin: 0;
+  font: 12px/1.55 "Source Sans Pro", sans-serif;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: cadetblue;
+}
+.footer__follow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.footer__follow-h2 {
+  font-size: 14px;
+  line-height: 16px;
+  color: #67625f;
+}
+.footer__follow-icons {
+  display: flex;
+}
+.footer__follow-icons a {
+  margin: 2px;
+  width: 33px;
+  height: 32px;
+}
+.footer__follow-icons :nth-child(1) {
+  background: url(images/sprite.svg) 0 -494px no-repeat transparent;
+}
+.footer__follow-icons :nth-child(2) {
+  background: url(images/sprite.svg) -35px -494px no-repeat transparent;
+}
+.footer__follow-icons :nth-child(3) {
+  background: url(images/sprite.svg) -70px -494px no-repeat transparent;
+}
+.footer__follow-icons :nth-child(4) {
+  background: url(images/sprite.svg) -106px -494px no-repeat transparent;
+}
+.footer__follow-icons :nth-child(5) {
+  background: url(images/sprite.svg) -176px -494px no-repeat transparent;
 }
 
 /*# sourceMappingURL=style.css.map */
