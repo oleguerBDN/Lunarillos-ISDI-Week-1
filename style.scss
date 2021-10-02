@@ -107,8 +107,7 @@ body {
       align-items: center;
       :nth-child(1) {
         background: url(../images/sprite.svg) 0 -207px no-repeat;
-        width: 30px;
-        height: 30px;
+        @extend %footer__contact-icon-size;
       }
     }
     &-info {
@@ -117,8 +116,7 @@ body {
       align-items: center;
       :nth-child(1) {
         background: url(../images/sprite.svg) 0 -246px no-repeat;
-        width: 30px;
-        height: 30px;
+        @extend %footer__contact-icon-size;
       }
     }
     &-cart {
@@ -127,8 +125,7 @@ body {
       align-items: center;
       :nth-child(1) {
         background: url(../images/sprite.svg) 0 -285px no-repeat;
-        width: 30px;
-        height: 30px;
+        @extend %footer__contact-icon-size;
       }
     }
   }

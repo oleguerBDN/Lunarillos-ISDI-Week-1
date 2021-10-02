@@ -1,3 +1,8 @@
+.footer__contact-cart :nth-child(1), .footer__contact-info :nth-child(1), .footer__contact-mail :nth-child(1) {
+  width: 30px;
+  height: 30px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -105,8 +110,6 @@ body {
 }
 .footer__contact-mail :nth-child(1) {
   background: url(../images/sprite.svg) 0 -207px no-repeat;
-  width: 30px;
-  height: 30px;
 }
 .footer__contact-info {
   display: flex;
@@ -115,8 +118,6 @@ body {
 }
 .footer__contact-info :nth-child(1) {
   background: url(../images/sprite.svg) 0 -246px no-repeat;
-  width: 30px;
-  height: 30px;
 }
 .footer__contact-cart {
   display: flex;
@@ -125,8 +126,6 @@ body {
 }
 .footer__contact-cart :nth-child(1) {
   background: url(../images/sprite.svg) 0 -285px no-repeat;
-  width: 30px;
-  height: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
