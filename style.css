@@ -75,6 +75,31 @@ body {
   align-items: center;
 }
 
+.fiestas {
+  display: flex;
+  justify-content: center;
+}
+
+.fiestas__button {
+  width: 325px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 185px;
+  background-color: #ff5959;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  border-style: none;
+}
+.button:hover {
+  cursor: pointer;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
