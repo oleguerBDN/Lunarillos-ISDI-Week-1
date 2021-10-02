@@ -85,5 +85,48 @@ body {
 .footer__subscribe-privacylink {
   text-decoration: underline;
 }
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.footer__contact a {
+  text-decoration: none;
+  color: #ff5959;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.footer__contact-mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__contact-mail :nth-child(1) {
+  background: url(../images/sprite.svg) 0 -207px no-repeat;
+  width: 30px;
+  height: 30px;
+}
+.footer__contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__contact-info :nth-child(1) {
+  background: url(../images/sprite.svg) 0 -246px no-repeat;
+  width: 30px;
+  height: 30px;
+}
+.footer__contact-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__contact-cart :nth-child(1) {
+  background: url(../images/sprite.svg) 0 -285px no-repeat;
+  width: 30px;
+  height: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */

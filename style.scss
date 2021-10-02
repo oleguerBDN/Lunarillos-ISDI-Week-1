@@ -89,4 +89,47 @@ body {
       text-decoration: underline;
     }
   }
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    a {
+      text-decoration: none;
+      color: #ff5959;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 500;
+    }
+    &-mail {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      :nth-child(1) {
+        background: url(../images/sprite.svg) 0 -207px no-repeat;
+        width: 30px;
+        height: 30px;
+      }
+    }
+    &-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      :nth-child(1) {
+        background: url(../images/sprite.svg) 0 -246px no-repeat;
+        width: 30px;
+        height: 30px;
+      }
+    }
+    &-cart {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      :nth-child(1) {
+        background: url(../images/sprite.svg) 0 -285px no-repeat;
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
 }
