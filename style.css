@@ -186,7 +186,6 @@ body {
   background: url(../images/sprite.svg) 0 -285px no-repeat;
 }
 .footer .copyright {
-  position: fixed;
   bottom: 0;
   width: 100vw;
   text-align: center;
