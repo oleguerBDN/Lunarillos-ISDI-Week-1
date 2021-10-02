@@ -22,7 +22,7 @@ body {
   align-items: center;
   width: 100%;
 }
-.footer__follow-h2 {
+.footer__follow-title {
   font-size: 14px;
   line-height: 16px;
   color: #67625f;
@@ -57,7 +57,7 @@ body {
   align-items: center;
   width: 100%;
 }
-.footer__subscribe-h2 {
+.footer__subscribe-title {
   font-size: 14px;
   line-height: 16px;
   color: #67625f;
