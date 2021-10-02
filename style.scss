@@ -70,7 +70,6 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #f8f8f8;
-
   &__follow {
     width: 325px;
     display: flex;
@@ -155,6 +154,7 @@ body {
     align-items: center;
     width: 325px;
     padding-top: 30px;
+    padding-bottom: 30px;
     a {
       text-decoration: none;
       color: #ff5959;
@@ -166,18 +166,23 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding-bottom: 20px;
       :nth-child(1) {
         background: url(../images/sprite.svg) 0 -207px no-repeat;
         @extend %footer__contact-icon-size;
+        margin-bottom: 5px;
       }
     }
     &-info {
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding-bottom: 20px;
+
       :nth-child(1) {
         background: url(../images/sprite.svg) 0 -246px no-repeat;
         @extend %footer__contact-icon-size;
+        margin-bottom: 5px;
       }
     }
     &-cart {
@@ -187,6 +192,7 @@ body {
       :nth-child(1) {
         background: url(../images/sprite.svg) 0 -285px no-repeat;
         @extend %footer__contact-icon-size;
+        margin-bottom: 5px;
       }
     }
   }
