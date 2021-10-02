@@ -1,3 +1,4 @@
+/* Colores*/
 .footer__contact-cart :nth-child(1), .footer__contact-info :nth-child(1), .footer__contact-mail :nth-child(1) {
   width: 30px;
   height: 30px;
@@ -126,6 +127,16 @@ body {
 }
 .footer__contact-cart :nth-child(1) {
   background: url(../images/sprite.svg) 0 -285px no-repeat;
+}
+.footer .copyright {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+  line-height: 50px;
+  background-color: #ff5959;
+  color: white;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
