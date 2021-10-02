@@ -12,6 +12,7 @@ body {
 }
 
 .header {
+  width: 100vw;
   height: 50px;
   position: sticky;
   top: 0;
@@ -58,6 +59,19 @@ body {
   font-size: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.logo__container {
+  width: 325px;
+  height: 100px;
+  padding-left: 0;
+  display: flex;
   align-items: center;
 }
 
