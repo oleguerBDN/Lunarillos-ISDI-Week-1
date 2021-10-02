@@ -19,15 +19,14 @@ body {
   justify-content: space-around;
   align-items: center;
   &__container {
-    width: 325px;
+    width: $size-container;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
   &__components {
-    display: flex;
-    justify-content: center;
+    @extend %display-container;
     align-items: center;
   }
   &__icon {
@@ -50,40 +49,85 @@ body {
       background-color: $color-lightgray;
     }
     &--counter {
+      @extend %display-container;
       background-color: $color-red;
       color: #fff;
       font-family: "Myriad Pro", "Myriad Web", "Tahoma", "Helvetica", "Arial",
         sans-serif;
       font-size: 20px;
-      display: flex;
-      justify-content: center;
       align-items: center;
     }
     font: 12px/1.55 "Source Sans Pro", sans-serif;
   }
 }
-
-.logo {
-  width: 100vw;
+.main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+.logo {
+  @extend %display-container;
+  width: 100vw;
   &__container {
-    width: 325px;
+    width: $size-container;
     height: 100px;
     padding-left: 0;
     display: flex;
     align-items: center;
   }
 }
+
 .fiestas {
-  display: flex;
-  justify-content: center;
-}
-.fiestas__button {
-  width: 325px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
+  @extend %display-container;
+  flex-direction: column;
+  align-items: center;
+  background-color: $color-lightgray;
+  &__icon {
+    width: $size-container;
+    height: 50px;
+  }
+  &__title {
+    width: $size-container;
+    height: 50px;
+  }
+  &__card {
+    width: $size-container;
+    height: 200px;
+    margin-bottom: 10px;
+    &:hover {
+      cursor: pointer;
+    }
+    &--tematicas {
+      background: url(./images/fiestastematicas.jpg) no-repeat;
+      background-size: contain;
+    }
+    &--personajes {
+      background: url(./images/fiestaspersonajes.jpg) no-repeat;
+      background-size: contain;
+    }
+    &--pompones {
+      background: url(./images/pompones.jpg) no-repeat;
+    }
+    &-title {
+      display: flex;
+      align-items: center;
+      width: $size-container / 2;
+      height: 125px;
+      font-family: $font;
+      font-size: 18px;
+      font-weight: lighter;
+      color: $color-font;
+      background-color: rgba($color: #fff, $alpha: 0.8);
+      h3 {
+        margin: 0;
+      }
+    }
+  }
+  &__button {
+    @extend %display-container;
+    width: $size-container;
+    height: 50px;
+    margin-top: 20px;
+  }
 }
 .button {
   width: 185px;
@@ -99,10 +143,9 @@ body {
 }
 
 .footer {
-  display: flex;
+  @extend %display-container;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 100vw;
   height: 100vh;
   background-color: #f8f8f8;
