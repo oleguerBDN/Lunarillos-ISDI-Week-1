@@ -221,3 +221,41 @@ body {
     font-size: 14px;
   }
 }
+
+.conditions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  div {
+    display: flex;
+    justify-content: center;
+  }
+  .conditions__icon {
+    width: 100px;
+    height: 60px;
+    background-color: yellow;
+    &--free {
+      width: 85px;
+      background: url(images/sprite.svg) 0 -38px no-repeat transparent;
+    }
+    &--fast {
+      width: 55px;
+      background: url(images/sprite.svg) -90px -38px no-repeat transparent;
+    }
+    &--pay {
+      width: 68px;
+      background: url(images/sprite.svg) -150px -36px no-repeat transparent;
+    }
+    &--return {
+      width: 77px;
+      background: url(images/sprite.svg) -223px -38px no-repeat transparent;
+    }
+  }
+  .conditions__article {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
