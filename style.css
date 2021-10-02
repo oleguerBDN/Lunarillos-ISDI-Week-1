@@ -1,9 +1,60 @@
+/* Colores*/
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  height: 5000px;
+}
+
+.header {
+  height: 50px;
+  position: sticky;
+  top: 0;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__components {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__icon {
+  width: 50px;
+  height: 50px;
+}
+.header__icon--login {
+  width: 27px;
+  height: 27px;
+  background: url(../images/sprite.svg) 0 0 no-repeat;
+  margin: 10px;
+  background-color: #f8f8f8;
+}
+.header__icon--search {
+  background: url(images/sprite.svg) -304px 12px no-repeat transparent;
+  background-color: #bbb8b6;
+}
+.header__icon--shop {
+  background: url(images/sprite.svg) -66px 10px no-repeat transparent;
+  background-color: #f8f8f8;
+}
+.header__icon--counter {
+  background-color: #ff5959;
+  color: #fff;
+  font-family: "Myriad Pro", "Myriad Web", "Tahoma", "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
