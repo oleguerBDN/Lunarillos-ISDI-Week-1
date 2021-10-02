@@ -56,6 +56,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  color: #67625f;
 }
 .footer__subscribe-title {
   font-size: 14px;
@@ -73,19 +74,16 @@ body {
   width: 100%;
   height: 40px;
 }
-.footer__subscribe-form:nth-child(2) {
-  color: #67625f;
-}
-.footer__subscribe-form span {
-  text-decoration: underline;
-}
-.footer__subscribe-button {
+.footer__subscribe-form [type=submit] {
   width: 100%;
   height: 40px;
   background-color: #ff5959;
   border: none;
   color: #fff;
   font-weight: 700;
+}
+.footer__subscribe-privacylink {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

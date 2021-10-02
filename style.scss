@@ -60,6 +60,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    color: #67625f;
     &-title {
       font-size: 14px;
       line-height: 16px;
@@ -75,20 +76,17 @@ body {
         width: 100%;
         height: 40px;
       }
-      &:nth-child(2) {
-        color: #67625f;
-      }
-      span {
-        text-decoration: underline;
+      & [type="submit"] {
+        width: 100%;
+        height: 40px;
+        background-color: #ff5959;
+        border: none;
+        color: #fff;
+        font-weight: 700;
       }
     }
-    &-button {
-      width: 100%;
-      height: 40px;
-      background-color: #ff5959;
-      border: none;
-      color: #fff;
-      font-weight: 700;
+    &-privacylink {
+      text-decoration: underline;
     }
   }
 }
