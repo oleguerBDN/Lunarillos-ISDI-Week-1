@@ -129,4 +129,14 @@ body {
       }
     }
   }
+  .copyright {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    line-height: 50px;
+    background-color: $color-red;
+    color: white;
+    font-size: 14px;
+  }
 }
