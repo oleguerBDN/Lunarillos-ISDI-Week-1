@@ -3,6 +3,11 @@
   height: 30px;
 }
 
+.footer, .fiestas__button, .fiestas, .logo, .header__icon--counter, .header__components {
+  display: flex;
+  justify-content: center;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -28,8 +33,6 @@ body {
   align-items: center;
 }
 .header__components {
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 .header__icon {
@@ -57,15 +60,16 @@ body {
   color: #fff;
   font-family: "Myriad Pro", "Myriad Web", "Tahoma", "Helvetica", "Arial", sans-serif;
   font-size: 20px;
-  display: flex;
-  justify-content: center;
   align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
   width: 100vw;
-  display: flex;
-  justify-content: center;
 }
 .logo__container {
   width: 325px;
@@ -76,15 +80,55 @@ body {
 }
 
 .fiestas {
-  display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
 }
-
+.fiestas__icon {
+  width: 325px;
+  height: 50px;
+}
+.fiestas__title {
+  width: 325px;
+  height: 50px;
+}
+.fiestas__card {
+  width: 325px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.fiestas__card:hover {
+  cursor: pointer;
+}
+.fiestas__card--tematicas {
+  background: url(./images/fiestastematicas.jpg) no-repeat;
+  background-size: contain;
+}
+.fiestas__card--personajes {
+  background: url(./images/fiestaspersonajes.jpg) no-repeat;
+  background-size: contain;
+}
+.fiestas__card--pompones {
+  background: url(./images/pompones.jpg) no-repeat;
+}
+.fiestas__card-title {
+  display: flex;
+  align-items: center;
+  width: 162.5px;
+  height: 125px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #67625f;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.fiestas__card-title h3 {
+  margin: 0;
+}
 .fiestas__button {
   width: 325px;
   height: 50px;
-  display: flex;
-  justify-content: center;
+  margin-top: 20px;
 }
 
 .button {
@@ -101,10 +145,8 @@ body {
 }
 
 .footer {
-  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 100vw;
   height: 100vh;
   background-color: #f8f8f8;
