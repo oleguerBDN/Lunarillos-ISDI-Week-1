@@ -464,6 +464,15 @@ body {
   .footer {
     flex-direction: row;
   }
+  .footer__follow {
+    width: auto;
+  }
+  .footer__subscribe {
+    width: auto;
+  }
+  .footer__contact {
+    width: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

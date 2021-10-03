@@ -472,5 +472,14 @@ body {
 @media (min-width: 600px) {
   .footer {
     flex-direction: row;
+    &__follow {
+      width: auto;
+    }
+    &__subscribe {
+      width: auto;
+    }
+    &__contact {
+      width: auto;
+    }
   }
 }
