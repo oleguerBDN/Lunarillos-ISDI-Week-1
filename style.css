@@ -272,6 +272,9 @@ body {
   align-items: center;
   padding-bottom: 20px;
 }
+.footer__contact-mail:hover {
+  text-decoration: underline;
+}
 .footer__contact-mail :nth-child(1) {
   background: url(../images/sprite.svg) 0 -207px no-repeat;
   margin-bottom: 5px;
@@ -282,6 +285,9 @@ body {
   align-items: center;
   padding-bottom: 20px;
 }
+.footer__contact-info:hover {
+  text-decoration: underline;
+}
 .footer__contact-info :nth-child(1) {
   background: url(../images/sprite.svg) 0 -246px no-repeat;
   margin-bottom: 5px;
@@ -290,6 +296,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.footer__contact-cart:hover {
+  text-decoration: underline;
 }
 .footer__contact-cart :nth-child(1) {
   background: url(../images/sprite.svg) 0 -285px no-repeat;
