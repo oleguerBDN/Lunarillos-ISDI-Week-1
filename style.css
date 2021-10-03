@@ -29,6 +29,9 @@ body {
   align-items: center;
   z-index: 1;
 }
+.header__nav:hover {
+  cursor: pointer;
+}
 .header__container {
   width: 325px;
   display: flex;
@@ -48,7 +51,9 @@ body {
   height: 27px;
   background: url(../images/sprite.svg) 0 0 no-repeat;
   margin-right: 10px;
-  background-color: #f8f8f8;
+}
+.header__icon--login:hover {
+  background: url(./images/sprite.svg) -37px 0 no-repeat;
 }
 .header__icon--search {
   background: url(images/sprite.svg) -304px 12px no-repeat transparent;
@@ -57,6 +62,10 @@ body {
 .header__icon--shop {
   background: url(images/sprite.svg) -66px 10px no-repeat transparent;
   background-color: #f8f8f8;
+}
+.header__icon--shop:hover {
+  background: url(./images/sprite.svg) -106px 10px no-repeat;
+  background-color: #ff5959;
 }
 .header__icon--counter {
   background-color: #ff5959;
@@ -163,6 +172,7 @@ body {
 }
 .button:hover {
   cursor: pointer;
+  background-color: rgba(255, 89, 89, 0.6);
 }
 
 .footer {
@@ -320,7 +330,6 @@ body {
 }
 .conditions .conditions__icon {
   height: 60px;
-  background-color: yellow;
 }
 .conditions .conditions__icon--free {
   width: 85px;
@@ -349,6 +358,22 @@ body {
   color: #67625f;
   margin-top: 50px;
   margin-bottom: 50px;
+  cursor: pointer;
+}
+.conditions .conditions__article:hover {
+  color: #ff5959;
+}
+.conditions .conditions__article:hover .conditions__icon--free {
+  background: url(images/sprite.svg) 0 -109px no-repeat transparent;
+}
+.conditions .conditions__article:hover .conditions__icon--fast {
+  background: url(images/sprite.svg) -90px -109px no-repeat transparent;
+}
+.conditions .conditions__article:hover .conditions__icon--pay {
+  background: url(images/sprite.svg) -150px -107px no-repeat transparent;
+}
+.conditions .conditions__article:hover .conditions__icon--return {
+  background: url(images/sprite.svg) -223px -109px no-repeat transparent;
 }
 .conditions .conditions__article .conditions__title {
   font-size: 14px;
