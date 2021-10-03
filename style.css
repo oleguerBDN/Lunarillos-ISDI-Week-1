@@ -222,7 +222,7 @@ body {
   padding-bottom: 50px;
 }
 .footer__subscribe-title {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 16px;
   color: #67625f;
   font-weight: lighter;
@@ -233,7 +233,7 @@ body {
   align-items: center;
   width: 100%;
 }
-.footer__subscribe-form [type=text] {
+.footer__subscribe-form [type=email] {
   width: 100%;
   height: 40px;
 }
@@ -247,9 +247,17 @@ body {
 }
 .footer__subscribe-form label {
   line-height: 30px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.footer__subscribe-form label input {
+  cursor: pointer;
 }
 .footer__subscribe-privacylink {
   text-decoration: underline;
+}
+.footer__subscribe-privacylink:hover {
+  cursor: pointer;
 }
 .footer__contact {
   display: flex;
