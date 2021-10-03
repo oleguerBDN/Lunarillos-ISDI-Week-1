@@ -86,8 +86,14 @@ body {
     height: 50px;
   }
   &__title {
-    width: $size-container;
-    height: 50px;
+    @extend %display-container;
+    width: 218px;
+    height: 66px;
+    color: $color-title;
+    font-family: $font;
+    margin-bottom: 67px;
+    border-top: 2px solid $color-title;
+    border-bottom: 2px solid $color-title;
   }
   &__card {
     width: $size-container;
@@ -98,11 +104,11 @@ body {
     }
     &--tematicas {
       background: url(./images/fiestastematicas.jpg) no-repeat;
-      background-size: contain;
+      background-size: cover;
     }
     &--personajes {
       background: url(./images/fiestaspersonajes.jpg) no-repeat;
-      background-size: contain;
+      background-size: cover;
     }
     &--pompones {
       background: url(./images/pompones.jpg) no-repeat;
