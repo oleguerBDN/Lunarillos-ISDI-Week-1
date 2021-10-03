@@ -159,16 +159,16 @@ body {
   }
 }
 .button {
-  width: 185px;
+  width: 170px;
   background-color: $color-red;
   color: #fff;
   font-family: $font;
   font-weight: lighter;
   font-size: 18px;
   border-style: none;
+  cursor: pointer;
   &:hover {
-    cursor: pointer;
-    background-color: rgba($color: $color-red, $alpha: 0.6);
+    opacity: 0.6;
   }
 }
 
@@ -238,8 +238,8 @@ body {
     align-items: center;
     width: 325px;
     color: #67625f;
-    border-top: 1px solid $color-font;
-    border-bottom: 1px solid $color-font;
+    border-top: 1px solid $color-gray;
+    border-bottom: 1px solid $color-gray;
     padding-top: 50px;
     padding-bottom: 50px;
 
@@ -257,18 +257,15 @@ body {
       & [type="email"] {
         width: 100%;
         height: 40px;
+        &:focus {
+          outline: none;
+        }
       }
       & [type="submit"] {
         width: 100%;
         height: 40px;
-        background-color: #ff5959;
-        border: none;
-        color: #fff;
         font-weight: 700;
-        cursor: pointer;
-        &:hover {
-          opacity: 0.6;
-        }
+        font-size: 14px;
       }
       label {
         line-height: 30px;
@@ -293,9 +290,10 @@ body {
     width: 325px;
     margin-top: 30px;
     margin-bottom: 30px;
+    color: $color-red;
     a {
       text-decoration: none;
-      color: #ff5959;
+      color: $color-red;
       font-size: 13px;
       line-height: 16px;
       font-weight: 500;
