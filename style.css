@@ -166,7 +166,7 @@ body {
 .footer {
   flex-direction: column;
   align-items: center;
-  font: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   background-color: #f8f8f8;
   margin: 0;
   padding: 0;
@@ -308,6 +308,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
   background-color: #e8e6e5;
 }
 .conditions div {
