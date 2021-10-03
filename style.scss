@@ -21,13 +21,15 @@ body {
   justify-content: space-around;
   align-items: center;
   z-index: 1;
+  &__nav:hover {
+    cursor: pointer;
+  }
   &__container {
     width: $size-container;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-
   &__components {
     @extend %display-container;
     align-items: center;
@@ -40,9 +42,10 @@ body {
       height: 27px;
       background: url(../images/sprite.svg) 0 0 no-repeat;
       margin-right: 10px;
-      background-color: $color-lightgray;
+      &:hover {
+        background: url(./images/sprite.svg) -37px 0 no-repeat;
+      }
     }
-
     &--search {
       background: url(images/sprite.svg) -304px 12px no-repeat transparent;
       background-color: $color-gray;
@@ -50,6 +53,10 @@ body {
     &--shop {
       background: url(images/sprite.svg) -66px 10px no-repeat transparent;
       background-color: $color-lightgray;
+      &:hover {
+        background: url(./images/sprite.svg) -106px 10px no-repeat;
+        background-color: $color-red;
+      }
     }
     &--counter {
       @extend %display-container;
@@ -161,6 +168,7 @@ body {
   border-style: none;
   &:hover {
     cursor: pointer;
+    background-color: rgba($color: $color-red, $alpha: 0.6);
   }
 }
 
@@ -326,7 +334,6 @@ body {
   .conditions__icon {
     //width: 100px;
     height: 60px;
-    background-color: yellow;
     &--free {
       width: 85px;
       background: url(images/sprite.svg) 0 -38px no-repeat transparent;
@@ -355,6 +362,24 @@ body {
     color: $color-font;
     margin-top: 50px;
     margin-bottom: 50px;
+    cursor: pointer;
+    &:hover {
+      color: $color-red;
+      .conditions__icon {
+        &--free {
+          background: url(images/sprite.svg) 0 -109px no-repeat transparent;
+        }
+        &--fast {
+          background: url(images/sprite.svg) -90px -109px no-repeat transparent;
+        }
+        &--pay {
+          background: url(images/sprite.svg) -150px -107px no-repeat transparent;
+        }
+        &--return {
+          background: url(images/sprite.svg) -223px -109px no-repeat transparent;
+        }
+      }
+    }
 
     .conditions__title {
       font-size: 16px;
