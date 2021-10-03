@@ -457,3 +457,14 @@ body {
     margin: 2px;
   }
 }
+
+@media (min-width: 700px) {
+  .conditions {
+    flex-direction: row;
+    div {
+      display: flex;
+      justify-content: space-between;
+      width: 350px;
+    }
+  }
+}
