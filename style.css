@@ -198,8 +198,14 @@ body {
 .footer__follow-icons :nth-child(1) {
   background: url(images/sprite.svg) 0 -494px no-repeat transparent;
 }
+.footer__follow-icons :nth-child(1):hover {
+  background: url(images/sprite.svg) 0 -574px no-repeat transparent;
+}
 .footer__follow-icons :nth-child(2) {
   background: url(images/sprite.svg) -35px -494px no-repeat transparent;
+}
+.footer__follow-icons :nth-child(2):hover {
+  background: url(images/sprite.svg) -35px -574px no-repeat transparent;
 }
 .footer__follow-icons :nth-child(3) {
   background: url(images/sprite.svg) -70px -494px no-repeat transparent;
@@ -244,6 +250,10 @@ body {
   border: none;
   color: #fff;
   font-weight: 700;
+  cursor: pointer;
+}
+.footer__subscribe-form [type=submit]:hover {
+  opacity: 0.6;
 }
 .footer__subscribe-form label {
   line-height: 30px;
