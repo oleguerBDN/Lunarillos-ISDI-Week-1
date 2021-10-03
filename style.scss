@@ -318,9 +318,11 @@ body {
   justify-content: center;
   font-family: $font;
   background-color: $color-background-conditions;
+
   div {
     display: flex;
     justify-content: space-between;
+    width: 325px;
   }
 
   .conditions__icon {
@@ -357,11 +359,11 @@ body {
     margin-bottom: 50px;
 
     .conditions__title {
-      font-size: 16px;
+      font-size: 14px;
       line-height: 19px;
     }
     .conditions__text {
-      font-size: 12px;
+      font-size: 11px;
       line-height: 18px;
       margin: 0;
       line-height: 20px;
