@@ -449,4 +449,10 @@ body {
   margin: 2px;
 }
 
+@media (min-width: 700px) {
+  .conditions {
+    flex-direction: row;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
