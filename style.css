@@ -423,4 +423,29 @@ body {
   text-align: center;
 }
 
+.assistant {
+  display: flex;
+  justify-content: space-around;
+  font-family: Verdana, sans-serif;
+  position: fixed;
+  bottom: 0px;
+  right: 50px;
+  overflow: hidden;
+  line-height: 27px;
+  padding: 3px 10px 0px;
+  border-radius: 5px 5px 0px 0px;
+  width: 200px;
+  height: 31px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  box-sizing: border-box;
+  background-color: #2e2925;
+  color: white;
+}
+.assistant__chat {
+  height: 25px;
+  margin: 2px;
+}
+
 /*# sourceMappingURL=style.css.map */
