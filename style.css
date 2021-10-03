@@ -453,8 +453,7 @@ body {
   .conditions {
     flex-direction: row;
   }
-
-  div {
+  .conditions div {
     display: flex;
     justify-content: space-between;
     width: 350px;
