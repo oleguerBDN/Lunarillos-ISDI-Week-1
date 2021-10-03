@@ -472,11 +472,30 @@ body {
 @media (min-width: 600px) {
   .footer {
     flex-direction: row;
+    justify-content: center;
     &__follow {
       width: auto;
     }
     &__subscribe {
       width: auto;
+
+      border-top: none;
+      border-bottom: none;
+
+      &-form {
+        border-left: 1px solid $color-gray;
+        border-right: 1px solid $color-gray;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      &-title {
+        border-left: 1px solid $color-gray;
+        border-right: 1px solid $color-gray;
+        padding-left: 50px;
+        padding-right: 50px;
+        line-height: 30px;
+        margin: 0;
+      }
     }
     &__contact {
       width: auto;

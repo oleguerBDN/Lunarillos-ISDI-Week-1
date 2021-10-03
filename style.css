@@ -463,12 +463,29 @@ body {
 @media (min-width: 600px) {
   .footer {
     flex-direction: row;
+    justify-content: center;
   }
   .footer__follow {
     width: auto;
   }
   .footer__subscribe {
     width: auto;
+    border-top: none;
+    border-bottom: none;
+  }
+  .footer__subscribe-form {
+    border-left: 1px solid #bbb8b6;
+    border-right: 1px solid #bbb8b6;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .footer__subscribe-title {
+    border-left: 1px solid #bbb8b6;
+    border-right: 1px solid #bbb8b6;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 30px;
+    margin: 0;
   }
   .footer__contact {
     width: auto;
