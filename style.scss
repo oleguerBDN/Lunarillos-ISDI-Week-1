@@ -360,6 +360,10 @@ body {
   font-family: $font;
   background-color: $color-background-conditions;
 
+  h2 {
+    display: none;
+  }
+
   div {
     display: flex;
     justify-content: space-between;
