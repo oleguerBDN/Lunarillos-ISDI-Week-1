@@ -111,7 +111,7 @@ body {
   }
   &__card {
     width: $size-container;
-    height: 200px;
+    height: 125px;
     margin-bottom: 10px;
     &:hover {
       cursor: pointer;
@@ -131,13 +131,15 @@ body {
       display: flex;
       align-items: center;
       width: $size-container / 2;
-      height: 125px;
+      height: 62.5px;
       font-family: $font;
-      font-size: 18px;
-      font-weight: lighter;
+      font-size: 14px;
       color: $color-font;
       background-color: rgba($color: #fff, $alpha: 0.8);
-      h3 {
+      padding-left: 20px;
+      position: relative;
+      top: 125px - 62.5px;
+      &-font {
         margin: 0;
       }
     }
