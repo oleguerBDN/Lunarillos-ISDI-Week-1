@@ -339,15 +339,6 @@ body {
   background: url(../images/sprite.svg) 0 -285px no-repeat;
   margin-bottom: 5px;
 }
-.footer .copyright {
-  bottom: 0;
-  width: 100vw;
-  text-align: center;
-  line-height: 50px;
-  background-color: #ff5959;
-  color: white;
-  font-size: 14px;
-}
 
 .conditions {
   display: flex;
@@ -449,6 +440,16 @@ body {
   margin: 2px;
 }
 
+.copyright {
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+  line-height: 50px;
+  background-color: #ff5959;
+  color: white;
+  font-size: 14px;
+}
+
 @media (min-width: 700px) {
   .conditions {
     flex-direction: row;
@@ -457,6 +458,11 @@ body {
     display: flex;
     justify-content: space-between;
     width: 350px;
+  }
+}
+@media (min-width: 600px) {
+  .footer {
+    flex-direction: row;
   }
 }
 
