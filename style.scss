@@ -462,4 +462,9 @@ body {
   .conditions {
     flex-direction: row;
   }
+  div {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+  }
 }
