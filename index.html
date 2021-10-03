@@ -110,8 +110,16 @@
         <h2 class="footer__subscribe-title">
           RECIBE LAS NOVEDADES EN TU E-MAIL
         </h2>
-        <form class="footer__subscribe-form" action="" method="post">
-          <input type="text" name="name" />
+        <form
+          class="footer__subscribe-form"
+          action="javascript:void(0);"
+          method="post"
+        >
+          <input
+            type="email"
+            name="email"
+            pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"
+          />
           <label>
             <input
               class="footer__subscribe-checkbox"

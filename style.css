@@ -208,17 +208,32 @@ body {
 .footer__follow-icons :nth-child(1) {
   background: url(images/sprite.svg) 0 -494px no-repeat transparent;
 }
+.footer__follow-icons :nth-child(1):hover {
+  background: url(images/sprite.svg) 0 -574px no-repeat transparent;
+}
 .footer__follow-icons :nth-child(2) {
   background: url(images/sprite.svg) -35px -494px no-repeat transparent;
+}
+.footer__follow-icons :nth-child(2):hover {
+  background: url(images/sprite.svg) -35px -574px no-repeat transparent;
 }
 .footer__follow-icons :nth-child(3) {
   background: url(images/sprite.svg) -70px -494px no-repeat transparent;
 }
+.footer__follow-icons :nth-child(3):hover {
+  background: url(images/sprite.svg) -70px -574px no-repeat transparent;
+}
 .footer__follow-icons :nth-child(4) {
   background: url(images/sprite.svg) -106px -494px no-repeat transparent;
 }
+.footer__follow-icons :nth-child(4):hover {
+  background: url(images/sprite.svg) -106px -574px no-repeat transparent;
+}
 .footer__follow-icons :nth-child(5) {
   background: url(images/sprite.svg) -176px -494px no-repeat transparent;
+}
+.footer__follow-icons :nth-child(5):hover {
+  background: url(images/sprite.svg) -176px -574px no-repeat transparent;
 }
 .footer__subscribe {
   display: flex;
@@ -232,7 +247,7 @@ body {
   padding-bottom: 50px;
 }
 .footer__subscribe-title {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 16px;
   color: #67625f;
   font-weight: lighter;
@@ -243,7 +258,7 @@ body {
   align-items: center;
   width: 100%;
 }
-.footer__subscribe-form [type=text] {
+.footer__subscribe-form [type=email] {
   width: 100%;
   height: 40px;
 }
@@ -254,12 +269,24 @@ body {
   border: none;
   color: #fff;
   font-weight: 700;
+  cursor: pointer;
+}
+.footer__subscribe-form [type=submit]:hover {
+  opacity: 0.6;
 }
 .footer__subscribe-form label {
   line-height: 30px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.footer__subscribe-form label input {
+  cursor: pointer;
 }
 .footer__subscribe-privacylink {
   text-decoration: underline;
+}
+.footer__subscribe-privacylink:hover {
+  cursor: pointer;
 }
 .footer__contact {
   display: flex;
@@ -272,7 +299,7 @@ body {
 .footer__contact a {
   text-decoration: none;
   color: #ff5959;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 16px;
   font-weight: 500;
 }
@@ -281,6 +308,9 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
+}
+.footer__contact-mail:hover {
+  text-decoration: underline;
 }
 .footer__contact-mail :nth-child(1) {
   background: url(../images/sprite.svg) 0 -207px no-repeat;
@@ -292,6 +322,9 @@ body {
   align-items: center;
   padding-bottom: 20px;
 }
+.footer__contact-info:hover {
+  text-decoration: underline;
+}
 .footer__contact-info :nth-child(1) {
   background: url(../images/sprite.svg) 0 -246px no-repeat;
   margin-bottom: 5px;
@@ -300,6 +333,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.footer__contact-cart:hover {
+  text-decoration: underline;
 }
 .footer__contact-cart :nth-child(1) {
   background: url(../images/sprite.svg) 0 -285px no-repeat;
