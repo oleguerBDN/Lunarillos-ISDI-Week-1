@@ -210,11 +210,20 @@ body {
 .footer__follow-icons :nth-child(3) {
   background: url(images/sprite.svg) -70px -494px no-repeat transparent;
 }
+.footer__follow-icons :nth-child(3):hover {
+  background: url(images/sprite.svg) -70px -574px no-repeat transparent;
+}
 .footer__follow-icons :nth-child(4) {
   background: url(images/sprite.svg) -106px -494px no-repeat transparent;
 }
+.footer__follow-icons :nth-child(4):hover {
+  background: url(images/sprite.svg) -106px -574px no-repeat transparent;
+}
 .footer__follow-icons :nth-child(5) {
   background: url(images/sprite.svg) -176px -494px no-repeat transparent;
+}
+.footer__follow-icons :nth-child(5):hover {
+  background: url(images/sprite.svg) -176px -574px no-repeat transparent;
 }
 .footer__subscribe {
   display: flex;
