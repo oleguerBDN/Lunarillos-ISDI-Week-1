@@ -357,10 +357,10 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: #e8e6e5;
 }
-.conditions h2 {
+.conditions__main-title {
   display: none;
 }
-.conditions div {
+.conditions__box {
   display: flex;
   justify-content: space-between;
   width: 325px;

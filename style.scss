@@ -360,11 +360,11 @@ body {
   font-family: $font;
   background-color: $color-background-conditions;
 
-  h2 {
+  &__main-title {
     display: none;
   }
 
-  div {
+  &__box {
     display: flex;
     justify-content: space-between;
     width: 325px;
