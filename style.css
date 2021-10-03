@@ -326,6 +326,7 @@ body {
 .conditions div {
   display: flex;
   justify-content: space-between;
+  width: 325px;
 }
 .conditions .conditions__icon {
   height: 60px;
@@ -375,11 +376,11 @@ body {
   background: url(images/sprite.svg) -223px -109px no-repeat transparent;
 }
 .conditions .conditions__article .conditions__title {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 19px;
 }
 .conditions .conditions__article .conditions__text {
-  font-size: 12px;
+  font-size: 11px;
   line-height: 18px;
   margin: 0;
   line-height: 20px;
