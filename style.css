@@ -168,8 +168,7 @@ body {
 .footer {
   flex-direction: column;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+  font-family: "Source Sans Pro", sans-serif;
   background-color: #f8f8f8;
   margin: 0;
   padding: 0;
@@ -180,7 +179,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 40px;
-  margin-top: 100px;
+  padding-top: 40px;
 }
 .footer__follow-title {
   font-size: 14px;
@@ -311,6 +310,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
   background-color: #e8e6e5;
 }
 .conditions div {
@@ -318,7 +318,6 @@ body {
   justify-content: space-between;
 }
 .conditions .conditions__icon {
-  width: 100px;
   height: 60px;
   background-color: yellow;
 }
@@ -328,10 +327,12 @@ body {
 }
 .conditions .conditions__icon--fast {
   width: 55px;
+  margin-top: 20px;
   background: url(images/sprite.svg) -90px -38px no-repeat transparent;
 }
 .conditions .conditions__icon--pay {
   width: 68px;
+  margin-top: 20px;
   background: url(images/sprite.svg) -150px -36px no-repeat transparent;
 }
 .conditions .conditions__icon--return {
