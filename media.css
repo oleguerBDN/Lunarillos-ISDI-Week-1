@@ -1,4 +1,8 @@
 @media (min-width: 600px) and (orientation: landscape) {
+  .header__container {
+    width: 80vw;
+  }
+
   .main {
     align-items: center;
   }
