@@ -1,4 +1,19 @@
 @media (min-width: 600px) and (orientation: landscape) {
+  .header__icon--text {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #2e2925;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+  .header__icon--search {
+    background: url();
+    background-color: #f8f8f8;
+  }
   .header__container {
     width: 80vw;
   }

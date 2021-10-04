@@ -58,10 +58,8 @@ body {
 .header__icon--login:hover {
   background: url(./images/sprite.svg) -37px 0 no-repeat;
 }
-.header__icon--login span {
+.header__icon--text {
   display: none;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #bbb8b6;
 }
 .header__icon--search {
   background: url(images/sprite.svg) -304px 12px no-repeat transparent;
