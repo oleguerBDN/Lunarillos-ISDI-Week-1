@@ -87,6 +87,9 @@ body {
 .logo {
   width: 100vw;
 }
+.logo__var {
+  display: none;
+}
 .logo__container {
   width: 325px;
   height: 100px;

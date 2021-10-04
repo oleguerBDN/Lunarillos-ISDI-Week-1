@@ -81,6 +81,9 @@ body {
 .logo {
   @extend %display-container;
   width: 100vw;
+  &__var {
+    display: none;
+  }
   &__container {
     width: $size-container;
     height: 100px;

@@ -102,15 +102,23 @@
             content: "";
           }
         }
-        &--search {
-          display: flex;
-          justify-content: flex-end;
-          width: 200px;
-          input {
-            height: 30px;
-          }
-        }
       }
+    }
+  }
+  .logo__var-search {
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+    input {
+      border: 1px solid $color-gray;
+      width: calc(100% - 49px);
+      height: 28px;
+      margin: 0;
+      font-size: 11px;
+      letter-spacing: 1px;
+      padding: 0 5px;
+      color: #bbb8b6;
+      outline: none;
     }
   }
   .button-search {
