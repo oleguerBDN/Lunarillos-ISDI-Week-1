@@ -551,4 +551,34 @@ body {
       }
     }
   }
+  .fiestas {
+    &__card-box {
+      display: flex;
+    }
+    &__card--pompones {
+      width: 175px;
+      height: 310px;
+      margin-left: 15px;
+      background-position: left;
+      .fiestas__card-title {
+        top: 248px;
+        width: 175px;
+      }
+    }
+    &__card--personajes {
+      height: 150px;
+      width: 380px;
+      .fiestas__card-title {
+        top: 88px;
+      }
+    }
+    &__card--tematicas {
+      height: 150px;
+      width: 380px;
+      .fiestas__card-title {
+        margin-left: 218px;
+        top: 88px;
+      }
+    }
+  }
 }
