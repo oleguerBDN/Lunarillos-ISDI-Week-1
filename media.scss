@@ -1,0 +1,66 @@
+@import "variables";
+@import "mixins";
+@import "extends";
+
+@media (min-width: 600px) and (orientation: landscape) {
+  .header__container {
+    width: 80vw;
+  }
+  .logo {
+    align-self: center;
+    width: 80vw;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    &__image {
+      display: block;
+      &--small {
+        display: none;
+      }
+      &-menu {
+        display: block;
+      }
+    }
+  }
+}
+@media (min-width: 600px) {
+  .footer {
+    flex-direction: row;
+    &__follow {
+      padding-right: 50px;
+      width: auto;
+    }
+    &__subscribe {
+      width: auto;
+
+      border-top: none;
+      border-bottom: none;
+
+      &-form {
+        border-left: 1px solid $color-gray;
+        border-right: 1px solid $color-gray;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      &-title {
+        border-left: 1px solid $color-gray;
+        border-right: 1px solid $color-gray;
+        padding-left: 50px;
+        padding-right: 50px;
+        line-height: 30px;
+        margin: 0;
+      }
+    }
+    &__contact {
+      padding-left: 50px;
+      align-items: flex-start;
+      width: auto;
+      :nth-child(n) {
+        flex-direction: row;
+        :nth-child(1) {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
