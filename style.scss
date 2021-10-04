@@ -551,4 +551,13 @@ body {
       }
     }
   }
+  .fiestas {
+    &__card-box {
+      display: flex;
+    }
+    &__card--pompones {
+      width: 175px;
+      height: $size-container;
+    }
+  }
 }
