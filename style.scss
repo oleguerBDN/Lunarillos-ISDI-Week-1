@@ -81,6 +81,9 @@ body {
 .logo {
   @extend %display-container;
   width: 100vw;
+  &__var {
+    display: none;
+  }
   &__container {
     width: $size-container;
     height: 100px;
@@ -125,6 +128,7 @@ body {
 .blog {
   width: 80px;
   height: 80px;
+  margin-left: 20px;
   background: url(./images/menu.svg) -320px 0 no-repeat;
   background-size: 560px;
   background-color: $color-red;
