@@ -531,6 +531,10 @@ body {
     margin-bottom: 10px;
     filter: grayscale(100%);
     opacity: 0.6;
+    &:hover {
+      filter: none;
+      opacity: unset;
+    }
   }
   &__logos {
     display: flex;
