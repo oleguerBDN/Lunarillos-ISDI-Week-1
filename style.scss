@@ -557,7 +557,16 @@ body {
     }
     &__card--pompones {
       width: 175px;
-      height: $size-container;
+      height: 310px;
+      margin-left: 15px;
+    }
+    &__card--personajes {
+      height: 150px;
+      width: 380px;
+    }
+    &__card--tematicas {
+      height: 150px;
+      width: 380px;
     }
   }
 }
