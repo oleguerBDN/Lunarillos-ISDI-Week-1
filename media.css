@@ -3,11 +3,8 @@
     width: 80vw;
   }
 
-  .main {
-    align-items: center;
-  }
-
   .logo {
+    align-self: center;
     width: 80vw;
     height: 200px;
     justify-content: space-between;
