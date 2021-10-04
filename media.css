@@ -1,0 +1,23 @@
+@media (min-width: 600px) and (orientation: landscape) {
+  .main {
+    align-items: center;
+  }
+
+  .logo {
+    width: 80vw;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo__image {
+    display: block;
+  }
+  .logo__image--small {
+    display: none;
+  }
+  .logo__image-menu {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
