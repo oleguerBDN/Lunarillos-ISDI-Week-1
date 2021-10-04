@@ -85,8 +85,50 @@ body {
     display: flex;
     align-items: center;
   }
+  &__image {
+    height: 80px;
+    display: none;
+    &-menu {
+      display: none;
+      .flex {
+        display: flex;
+        justify-content: space-between;
+      }
+      &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5px;
+        cursor: pointer;
+      }
+      img {
+        width: 80px;
+        height: 80px;
+        background-color: $color-lightgray;
+        &:hover {
+          background-color: $color-red;
+        }
+      }
+      span {
+        text-decoration: none;
+        font-family: $font;
+        color: $color-title;
+        font-size: 13px;
+        font-weight: 400;
+      }
+    }
+  }
 }
-
+.blog {
+  width: 80px;
+  height: 80px;
+  background: url(./images/menu.svg) -320px 0 no-repeat;
+  background-size: 560px;
+  background-color: $color-red;
+  &:hover {
+    background-color: $color-lightgray;
+  }
+}
 .fiestas {
   @extend %display-container;
   flex-direction: column;
@@ -350,11 +392,11 @@ body {
   font-family: $font;
   background-color: $color-background-conditions;
 
-  h2 {
+  &__main-title {
     display: none;
   }
 
-  div {
+  &__box {
     display: flex;
     justify-content: space-between;
     width: 325px;
