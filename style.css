@@ -131,6 +131,7 @@ body {
 .blog {
   width: 80px;
   height: 80px;
+  margin-left: 20px;
   background: url(./images/menu.svg) -320px 0 no-repeat;
   background-size: 560px;
   background-color: #ff5959;
@@ -544,6 +545,35 @@ body {
   }
   .footer__contact :nth-child(n) :nth-child(1) {
     margin-right: 5px;
+  }
+
+  .fiestas__card-box {
+    display: flex;
+  }
+  .fiestas__card--pompones {
+    width: 175px;
+    height: 310px;
+    margin-left: 15px;
+    background-position: left;
+  }
+  .fiestas__card--pompones .fiestas__card-title {
+    top: 248px;
+    width: 175px;
+  }
+  .fiestas__card--personajes {
+    height: 150px;
+    width: 380px;
+  }
+  .fiestas__card--personajes .fiestas__card-title {
+    top: 88px;
+  }
+  .fiestas__card--tematicas {
+    height: 150px;
+    width: 380px;
+  }
+  .fiestas__card--tematicas .fiestas__card-title {
+    margin-left: 218px;
+    top: 88px;
   }
 }
 
