@@ -1,7 +1,3 @@
-.footer__contact-cart :nth-child(1), .footer__contact-info :nth-child(1), .footer__contact-mail :nth-child(1) {
-  width: 30px;
-  height: 30px;
-}
 
 .footer, .fiestas__button, .fiestas__title, .fiestas, .logo, .header__icon--counter, .header__components {
   display: flex;
@@ -581,3 +577,4 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+
