@@ -585,3 +585,40 @@ body {
     }
   }
 }
+
+.brands {
+  @extend %display-container;
+  flex-direction: column;
+  align-items: center;
+  background-color: $color-lightgray;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  &__icon {
+    width: $size-container;
+    height: 50px;
+    position: relative;
+    &-element {
+      width: 100px;
+      position: absolute;
+      top: -60px;
+      right: $size-container / 2 - 50px;
+    }
+  }
+  &__title {
+    @extend %display-container;
+    width: 250px;
+    height: 66px;
+    color: $color-title;
+    font-family: $font;
+    margin-top: 67px;
+    margin-bottom: 67px;
+    border-top: 2px solid $color-title;
+    border-bottom: 2px solid $color-title;
+  }
+  &__button {
+    @extend %display-container;
+    width: $size-container;
+    height: 50px;
+    margin-top: 50px;
+  }
+}

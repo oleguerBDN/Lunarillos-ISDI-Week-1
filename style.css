@@ -3,7 +3,7 @@
   height: 30px;
 }
 
-.footer, .fiestas__button, .fiestas__title, .fiestas, .logo, .header__icon--counter, .header__components {
+.brands__button, .brands__title, .brands, .footer, .fiestas__button, .fiestas__title, .fiestas, .logo, .header__icon--counter, .header__components {
   display: flex;
   justify-content: center;
 }
@@ -545,6 +545,68 @@ body {
   .footer__contact :nth-child(n) :nth-child(1) {
     margin-right: 5px;
   }
+
+  .fiestas__card-box {
+    display: flex;
+  }
+  .fiestas__card--pompones {
+    width: 175px;
+    height: 310px;
+    margin-left: 15px;
+    background-position: left;
+  }
+  .fiestas__card--pompones .fiestas__card-title {
+    top: 248px;
+    width: 175px;
+  }
+  .fiestas__card--personajes {
+    height: 150px;
+    width: 380px;
+  }
+  .fiestas__card--personajes .fiestas__card-title {
+    top: 88px;
+  }
+  .fiestas__card--tematicas {
+    height: 150px;
+    width: 380px;
+  }
+  .fiestas__card--tematicas .fiestas__card-title {
+    margin-left: 218px;
+    top: 88px;
+  }
+}
+.brands {
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.brands__icon {
+  width: 325px;
+  height: 50px;
+  position: relative;
+}
+.brands__icon-element {
+  width: 100px;
+  position: absolute;
+  top: -60px;
+  right: 112.5px;
+}
+.brands__title {
+  width: 250px;
+  height: 66px;
+  color: #2e2925;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 67px;
+  margin-bottom: 67px;
+  border-top: 2px solid #2e2925;
+  border-bottom: 2px solid #2e2925;
+}
+.brands__button {
+  width: 325px;
+  height: 50px;
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
