@@ -1,4 +1,44 @@
-
+@media (min-width: 600px) and (orientation: landscape) {
+  .header__container {
+    width: 80vw;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__animation {
+    display: flex;
+    justify-content: space-between;
+    width: 202px;
+    height: 50px;
+  }
+  .header__animation-element {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 5px;
+    width: 60px;
+    height: 70px;
+    cursor: pointer;
+  }
+  .header__animation-element img {
+    width: 60px;
+  }
+  .header__animation-element--primary {
+    background: #ff5959;
+    width: 70px;
+    height: 125px;
+  }
+  .header__animation-element--secondary {
+    background-color: #6199af;
+  }
+  .header__animation-element--secondary:hover {
+    height: 125px;
+  }
+  .header__animation-element--tertiary {
+    background-color: #f6b436;
+  }
+  .header__animation-element--tertiary:hover {
+    height: 125px;
+  }
 
   .logo {
     align-self: center;
@@ -136,4 +176,3 @@
 }
 
 /*# sourceMappingURL=media.css.map */
-

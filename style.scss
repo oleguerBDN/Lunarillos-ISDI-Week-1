@@ -49,6 +49,9 @@ body {
         background: url(./images/sprite.svg) -37px 0 no-repeat;
       }
     }
+    &--text {
+      display: none;
+    }
     &--search {
       background: url(images/sprite.svg) -304px 12px no-repeat transparent;
       background-color: $color-gray;

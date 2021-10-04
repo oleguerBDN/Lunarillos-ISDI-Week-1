@@ -1,5 +1,9 @@
+.footer__contact-cart :nth-child(1), .footer__contact-info :nth-child(1), .footer__contact-mail :nth-child(1) {
+  width: 30px;
+  height: 30px;
+}
 
-.footer, .fiestas__button, .fiestas__title, .fiestas, .logo, .header__icon--counter, .header__components {
+.brands__button, .brands__title, .brands, .footer, .fiestas__button, .fiestas__title, .fiestas, .logo, .header__icon--counter, .header__components {
   display: flex;
   justify-content: center;
 }
@@ -53,6 +57,11 @@ body {
 }
 .header__icon--login:hover {
   background: url(./images/sprite.svg) -37px 0 no-repeat;
+}
+.header__icon--login span {
+  display: none;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #bbb8b6;
 }
 .header__icon--search {
   background: url(images/sprite.svg) -304px 12px no-repeat transparent;
@@ -497,6 +506,47 @@ body {
   font-size: 14px;
 }
 
+.brands {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+  margin-bottom: 100px;
+}
+.brands__title {
+  width: 250px;
+  height: 66px;
+  color: #2e2925;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 67px;
+  margin-bottom: 67px;
+  border-top: 2px solid #2e2925;
+  border-bottom: 2px solid #2e2925;
+}
+.brands__img {
+  object-fit: contain;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+.brands__img:hover {
+  filter: none;
+  opacity: unset;
+}
+.brands__logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 671px;
+}
+.brands__button {
+  width: 325px;
+  height: 50px;
+  margin-top: 50px;
+}
+
 @media (min-width: 700px) {
   .conditions {
     flex-direction: row;
@@ -574,7 +624,11 @@ body {
     margin-left: 218px;
     top: 88px;
   }
+
+  .brands {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
-
