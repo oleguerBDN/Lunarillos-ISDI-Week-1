@@ -503,6 +503,53 @@ body {
   font-size: 14px;
 }
 
+.brands {
+  @extend %display-container;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: $color-lightgray;
+  margin-bottom: 100px;
+
+  &__title {
+    @extend %display-container;
+    width: 250px;
+    height: 66px;
+    color: $color-title;
+    font-family: $font;
+    margin-top: 67px;
+    margin-bottom: 67px;
+    border-top: 2px solid $color-title;
+    border-bottom: 2px solid $color-title;
+  }
+
+  &__img {
+    object-fit: contain;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    &:hover {
+      filter: none;
+      opacity: unset;
+    }
+  }
+  &__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 671px;
+  }
+
+  &__button {
+    @extend %display-container;
+    width: $size-container;
+    height: 50px;
+    margin-top: 50px;
+  }
+}
+
 @media (min-width: 700px) {
   .conditions {
     flex-direction: row;
@@ -583,5 +630,9 @@ body {
         top: 88px;
       }
     }
+  }
+  .brands {
+    display: flex;
+    justify-content: center;
   }
 }
