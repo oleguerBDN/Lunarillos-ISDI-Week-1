@@ -515,11 +515,13 @@ body {
   border-top: 2px solid #2e2925;
   border-bottom: 2px solid #2e2925;
 }
-.brands__image {
+.brands__img {
   object-fit: contain;
   height: 60px;
   margin-top: 10px;
   margin-bottom: 10px;
+  filter: grayscale(100%);
+  opacity: 0.6;
 }
 .brands__logos {
   display: flex;

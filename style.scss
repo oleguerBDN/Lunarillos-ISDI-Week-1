@@ -524,11 +524,13 @@ body {
     border-bottom: 2px solid $color-title;
   }
 
-  &__image {
+  &__img {
     object-fit: contain;
     height: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
+    filter: grayscale(100%);
+    opacity: 0.6;
   }
   &__logos {
     display: flex;
