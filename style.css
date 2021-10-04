@@ -32,6 +32,9 @@ body {
 .header__nav:hover {
   cursor: pointer;
 }
+.header__animation {
+  display: none;
+}
 .header__container {
   width: 325px;
   display: flex;
