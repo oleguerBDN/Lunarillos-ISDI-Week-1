@@ -105,3 +105,7 @@ dist
 
 # Node modules
 .node_modules
+
+# .css & .css.map
+*.css
+*.css.map
