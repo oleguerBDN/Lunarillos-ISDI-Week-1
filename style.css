@@ -91,6 +91,50 @@ body {
   display: flex;
   align-items: center;
 }
+.logo__image {
+  height: 80px;
+  display: none;
+}
+.logo__image-menu {
+  display: none;
+}
+.logo__image-menu:hover {
+  background-color: #ff5959;
+}
+.logo__image-menu .flex {
+  display: flex;
+  justify-content: space-between;
+}
+.logo__image-menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.logo__image-menu img {
+  width: 80px;
+  height: 80px;
+  background-color: #f8f8f8;
+}
+.logo__image-menu span {
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #2e2925;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.blog {
+  width: 80px;
+  height: 80px;
+  background: url(./images/menu.svg) -320px 0 no-repeat;
+  background-size: 560px;
+  background-color: #ff5959;
+}
+.blog:hover {
+  background-color: #f8f8f8;
+}
 
 .fiestas {
   flex-direction: column;
@@ -348,10 +392,10 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: #e8e6e5;
 }
-.conditions h2 {
+.conditions__main-title {
   display: none;
 }
-.conditions div {
+.conditions__box {
   display: flex;
   justify-content: space-between;
   width: 325px;
