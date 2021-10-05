@@ -4,6 +4,27 @@
 
 @media (min-width: 600px) and (orientation: landscape) {
   .header {
+    &__icon {
+      &--text {
+        display: flex;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        font-family: $font;
+        color: $color-title;
+        font-weight: 400;
+        font-size: 13px;
+        text-transform: uppercase;
+        cursor: pointer;
+        &:hover {
+          color: $color-red;
+        }
+      }
+      &--search {
+        background: url();
+        background-color: $color-lightgray;
+      }
+    }
     &__container {
       width: 80vw;
     }
