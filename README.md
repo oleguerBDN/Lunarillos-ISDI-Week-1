@@ -1,3 +1,4 @@
-# 202109-W1WEEKEND
-ISDI Coders Bootcamp - Fernando &amp; Oleguer - Week 1 Weekend Challenge
+# LUNARILLOS. ISDI CODERS BOOTCAMP WEEK 1. WEEKEND CHALLENGE
+Fernando &amp; Oleguer
+HTML - CSS - SASS - BEM 
 ![](lunarillos.gif)
