@@ -3,6 +3,6 @@ Fernando &amp; Oleguer
 
 HTML - CSS - SASS - BEM 
 
-(https://weekend1-fernando-oleguer.netlify.app/)
+https://weekend1-fernando-oleguer.netlify.app/
 
 ![](lunarillos.gif)
